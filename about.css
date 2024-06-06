@@ -1,3 +1,75 @@
+.container1 {
+    padding: 2rem;
+}
+
+.box {
+    margin: auto;
+    max-width: 800px;
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin: 1rem 0;
+}
+
+.bar {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.html {
+    width: 80%;
+    height: 1rem;
+    background-color: #4caf50;
+}
+
+.css {
+    width: 70%;
+    height: 1rem;
+    background-color: #2196f3;
+}
+
+.js {
+    width: 60%;
+    height: 1rem;
+    background-color: #f0db4f;
+}
+
+.react {
+    width: 50%;
+    height: 1rem;
+    background-color: #61dbfb;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .box {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .info input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills li h3 {
+        font-size: 1rem;
+    }
+
+    .info form label {
+        font-size: 0.9rem;
+    }
+
+    .info form input {
+        font-size: 0.9rem;
+    }
+}
 
 .container1{
     background:
